@@ -1,0 +1,28 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gico735/node_api.git"
+  },
+  "author": "Gregory Zdanovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gico735/node_api/issues"
+  },
+  "homepage": "https://github.com/Gico735/node_api#readme",
+  "dependencies": {
+    "apollo-server-hapi": "^2.4.8",
+    "graphql": "^14.2.1",
+    "hapi": "^16.7.0",
+    "hapi-swagger": "^9.4.2",
+    "inert": "^5.1.2",
+    "mongoose": "^5.4.20",
+    "vision": "^5.4.4"
+  }
+}
